@@ -1,0 +1,41 @@
+{
+  "validar_preco_maior_que_um": {
+    "title": "New Product",
+    "price": 0,
+    "description": "A description",
+    "categoryId": 1,
+    "images": ["https://placeimg.com/640/480/any"]
+  },
+
+  "validar_payload_vazio": {
+    "title": null,
+    "price": null,
+    "description": null,
+    "categoryId": null,
+    "images": null
+  },
+
+  "validar_campos_numericos": {
+    "title": "New Product",
+    "price": "Não é um preço",
+    "description": "A description",
+    "categoryId": "é um teste",
+    "images": ["https://placeimg.com/640/480/any"]
+  },
+
+  "validar_categoria_inexistente": {
+    "title": "New Product",
+    "price": 10,
+    "description": "A description",
+    "categoryId": 9,
+    "images": ["https://placeimg.com/640/480/any"]
+  }, 
+
+  "validar_requisicao_com_sucesso": {
+    "title": "New Product",
+    "price": 10,
+    "description": "A description",
+    "categoryId": 5,
+    "images": ["https://placeimg.com/640/480/any"]
+  }
+}
