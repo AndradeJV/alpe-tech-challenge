@@ -1,0 +1,9 @@
+{
+  "newInformation": {
+    "title": "Update Product",
+    "price": 16,
+    "description": "New description",
+    "categoryId": 5,
+    "images": ["https://placeimg.com/640/480/any"]
+  }
+}

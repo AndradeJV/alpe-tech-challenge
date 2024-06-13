@@ -10,7 +10,7 @@ export default new class Product {
   }
 
   // Buscar todos ou um único produto
-  getProducts(version, id = null){
+  getProducts(version, id = ''){
     return cy.request({
       method: 'GET',
       url: `${Cypress.env('restApiProduct')}${version}/products/${id}`,
@@ -29,7 +29,7 @@ export default new class Product {
   }
 
   // Excluir um produto
-  deleteProducts(version){
+  deleteProducts(version, id){
     return cy.request({
       method: 'DELETE',
       url: `${Cypress.env('restApiProduct')}${version}/products/${id}`,

@@ -1,5 +1,15 @@
 # Desafio técnico - ALPE🚀
 
+Informações da API [aqui](https://fakeapi.platzi.com/en/rest/products/)
+
+## Informações do candidato
+- Nome: João Vitor Andrade de Araujo
+- Cidade: Suzano, SP
+- Idade: 22
+- Linguagens de programação: Java, Ruby, Python, javascript e typescript
+- Frameworks de automação: selenium, cypress, playwright, robot framework, maestro e appium
+- Ferramentas: Jira, Azure DevOps, PowerBI, Google Looker Studio e excel/sheets
+
 ## Tecnologias usadas🌐
 - Cypress
 
@@ -41,4 +51,4 @@
 * Poderia haver necessidade de criação de scripts para front-end que seria uma pasta Views com pages e components. E também poderia existir uma pasta para configurar conexão com um ou mais banco de dados.
 * Em caso de informações sigilosas poderia haver um arquivo que o cypress recomenda para usar que seria o cypress.env.
 
-* Para esse projeto não utilizei CI/CD mas já trabalhei com Github actions, Gitlab CI, CircleCI e Azure Devops
+* Caso houvesse de usar outra tecnologia para CI/CD, tenho conhecimento em: Gitlab CI, CircleCI e Azure Devops
